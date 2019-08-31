@@ -9,7 +9,7 @@ export class CartService {
     private http: HttpClient
   ) {}
 
-
+ 
   addToCart(product) {
     this.items.push(product);
   }
